@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NetFilm/static/css/main.08d4dd9f.css",
+    "main.js": "/NetFilm/static/js/main.5a63d4aa.js",
+    "index.html": "/NetFilm/index.html",
+    "main.08d4dd9f.css.map": "/NetFilm/static/css/main.08d4dd9f.css.map",
+    "main.5a63d4aa.js.map": "/NetFilm/static/js/main.5a63d4aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08d4dd9f.css",
+    "static/js/main.5a63d4aa.js"
+  ]
+}

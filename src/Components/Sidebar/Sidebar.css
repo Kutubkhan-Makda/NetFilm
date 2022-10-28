@@ -1,0 +1,38 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 4rem;
+    align-items: center;
+    justify-content: center;
+    top: 4rem;
+    height: 100%;
+    overflow:hidden;
+    transition:width .3s ease;
+    cursor:pointer;
+    background-color: #141414;
+    box-shadow:4px 7px 10px rgba(255, 0, 0, 0.4);
+}
+
+.sidebar:hover{
+    background-color: #202020;
+    width: 5rem;
+}
+
+.logo{
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+    position: fixed;
+    left: .5rem;
+    padding: 1rem;
+}
+
+.lord-icon{
+    display: flex;
+    flex-direction: column;
+    padding: .4rem;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    z-index: 100;
+}
