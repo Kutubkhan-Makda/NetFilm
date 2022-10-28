@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Login.css'
 import logo from "../../Images/Netfilm-logo.png"
 import SignInPage from '../SignInpage/SignInPage'
@@ -6,13 +6,7 @@ import SignInPage from '../SignInpage/SignInPage'
 const Login = () => {
   const [signIn, setsignIn] = useState(false)
 
-  useEffect(() => {
-    
-  }, [])
-  
-
   return (
-    <>
     <div className="loginscreen">
         <div className="login_background">
             <img className='login_logo' src={logo} alt="logo" />
@@ -35,7 +29,6 @@ const Login = () => {
           )}
         </div>
     </div>
-    </>
   )
 }
 
