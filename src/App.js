@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { auth } from './firebase';
 import { useDispatch, useSelector } from 'react-redux';
 import { login, logout, selectUser } from './features/userSlice';
+import Profile from './Components/Profile/Profile';
 
 
 function App() {
@@ -21,11 +22,11 @@ function App() {
         }));
       }
       else{
-        dispatch(logout);
+        dispatch(logout());
       }
     });
     return unsubscribe;
-  }, []);
+  }, [dispatch]);
   
   
   return (
@@ -33,6 +34,7 @@ function App() {
  
       <Router>
           {!user ? (<Login/>) : (<Switch>
+            <Route path='/profile'><Profile/></Route>
             <Route exact path='/NetFilm'><Homescreen/></Route>
           </Switch>)}
       </Router>

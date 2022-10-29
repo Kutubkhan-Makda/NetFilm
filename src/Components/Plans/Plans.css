@@ -1,0 +1,24 @@
+.plans_plan{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem;
+    opacity: 0.8;
+}
+
+.plans_plan:hover{
+    opacity: 1;
+}
+
+.plans_plan>button{
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+}
+
+.plans_disable>button{
+    background-color: gray !important;
+}

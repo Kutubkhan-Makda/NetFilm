@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import './Header.css'
 import logo from '../../Images/Netfilm-logo.png'
 import avtar from '../../Images/avtar.jpg'
+import { Link } from 'react-router-dom'
+
 
 const Header = () => {
     const [show, handleshow] = useState(false)
@@ -27,10 +29,14 @@ const Header = () => {
     <>
     <div className={`header ${show && "nav-black"}`}>
         <span>
-            <img className="logo" src={logo} alt="logo" />
+            <Link to='../NetFilm'>
+                <img className="logo" src={logo} alt="logo" />
+            </Link>
         </span>
         <span>
-            <img className="account" src={avtar} alt="avtar" />
+            <Link to='../profile'>
+                <img className="account" src={avtar} alt="avtar" />
+            </Link>  
         </span>
     </div>
     </>
