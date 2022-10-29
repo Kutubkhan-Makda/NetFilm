@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.66f46228.css",
-    "main.js": "/static/js/main.bcd3b3ff.js",
-    "index.html": "/index.html",
-    "main.66f46228.css.map": "/static/css/main.66f46228.css.map",
-    "main.bcd3b3ff.js.map": "/static/js/main.bcd3b3ff.js.map"
+    "main.css": "/NetFilm/static/css/main.1fc2031d.css",
+    "main.js": "/NetFilm/static/js/main.173af38d.js",
+    "index.html": "/NetFilm/index.html",
+    "main.1fc2031d.css.map": "/NetFilm/static/css/main.1fc2031d.css.map",
+    "main.173af38d.js.map": "/NetFilm/static/js/main.173af38d.js.map"
   },
   "entrypoints": [
-    "static/css/main.66f46228.css",
-    "static/js/main.bcd3b3ff.js"
+    "static/css/main.1fc2031d.css",
+    "static/js/main.173af38d.js"
   ]
 }
